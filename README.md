@@ -27,9 +27,9 @@ public void Output_OnEntityOutput(const char[] output, int caller, int activator
 		char params[256];
 		GetEntityOutputActionParams(address, params, sizeof(params));
 		
-    float delay = GetEntityOutputActionDelay(address);
-    int timesToFire = GetEntityOutputActionTimesToFire(address);
-    int IDStamp = GetEntityOutputActionIDStamp(address);
+		float delay = GetEntityOutputActionDelay(address);
+		int timesToFire = GetEntityOutputActionTimesToFire(address);
+		int IDStamp = GetEntityOutputActionIDStamp(address);
 	}
 }
 ```
